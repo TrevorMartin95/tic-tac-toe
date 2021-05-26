@@ -9,7 +9,7 @@ resetBoardBtn.addEventListener("click", boardReset);
 
 /* Make nodelist of tiles and add EventListener to each which 
    will place correct piece based on the move number and not 
-   allow piece to be placed if there already is one */
+   allow piece to be placed if there already is one on that tile*/
 const tiles = document.querySelectorAll(".tile");
 
 tiles.forEach(tile => {
